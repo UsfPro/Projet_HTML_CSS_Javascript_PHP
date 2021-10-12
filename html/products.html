@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+ <html>
+	<head>
+	<meta charset="utf-8">
+	<title>TP Web - HTML - CSS (Header)</title>
+	<link rel="stylesheet" type="text/css" href="../css/style.css"> 
+	<link rel="stylesheet" type="text/css" href="../css/footer.css">
+	<link rel="stylesheet" type="text/css" href="../css/products.css">
+	<link rel="icon" type="images/png" href="../images/logo.png">
+	</head>
+<body>
+
+	<?php
+            $servername = 'localhost';
+            $username = 'tp_web';
+            $password = 'tp_web';
+            
+            //On établit la connexion
+            $conn = mysqli_connect($servername, $username, $password);
+            
+            //On vérifie la connexion
+            if(!$conn){
+                die('Erreur : ' .mysqli_connect_error());
+            }
+            //echo "Connexion réussie pour $username" ;
+    ?>
+		
+	<div class="Conteneur">
+		<div class="colonne1"></div>
+		<div class="colonne2">
+			<div class="divHeader" style="width: 100%;">
+				<div class="container">
+					<div class="">
+						<div class="social_icon">
+							<a href="https://facebook.com" target="_blank"><img class="imgHeader" src="../images/icons/facebook_icon.svg"></a>
+							<a href="https://twitter.com" target="_blank"><img class="imgHeader" src="../images/icons/twitter_icon.svg"></a>
+							<a href="https://instagram.com" target="_blank"><img class="imgHeader" src="../images/icons/instagram_icon.svg"></a>
+							<a href="https://linkedin.com" target="_blank"><img class="imgHeader" src="../images/icons/linkedin_icon.svg"></a>
+						</div>
+						
+						<div class="header_right">
+						
+							<div class="login_register_btn">
+								<a href="#" class="btn" onclick="window.location='http://localhost/tp_web/html/login.html'">Login</a>     
+								<a href="#" class="btn" onclick="window.location='http://localhost/tp_web/html/register.html'">Register</a>    
+							</div>
+						</div>
+			
+					</div>
+					<div class="header">
+						<div class="container">
+							<div  class="logo">
+								<a href="#"><img class="imgLogo" src="../images/logo.png"></a>
+							</div>
+							<div class="navbar">
+								<ul>
+									<li class="active"><a href="http://localhost/tp_web/index.php">Accueil</a></li>
+									<li><a href="http://localhost/tp_web/html/products.html">Produits</a></li>   
+									<li><a href="http://localhost/tp_web/html/offres.html">Offres</a></li>
+									<li><a href="http://localhost/tp_web/html/agences.html">Nos agences</a></li>
+									<li><a href="http://localhost/tp_web/html/contacts.html">Contacts</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		 
+		<div class="text">
+			<center>
+				<h6>Nos Produits</h6>
+			</center>
+		</div>
+		<div class="paragraphe">
+		
+			<h2><em>Sublimez votre élégance avec notre collection intomporelle,et apportez de l'originalité avec nous bijoux au
+				désign typiquement kabyle de fabrication artisanale</em></h2>
+		</div>
+		<div class="titre">
+			<center>
+				<h4>Les Bracelets-Ameclux</h4>
+			</center>
+		</div>
+	
+		<section class="produits">
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/1.jpg">
+						</div>
+						<p class="produit">
+						<h3>braclet-1513</h3>
+						29 000 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col2">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/2.jpg">
+						</div>
+						<p class="details">
+						<h3>braclet-1612</h3>
+						49 000 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col3">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/3.jpg">
+						</div>
+						<p class="details">
+						<h3>braclet-2603</h3>
+						25000 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/4.jpg">
+						</div>
+						<p class="produit">
+						<h3>braclet-2633</h3>
+						25 000 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/5.jpg">
+						</div>
+						<p class="produit">
+						<h3>braclet-2036</h3>
+						4 000 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/6.jpg">
+						</div>
+						<p class="produit">
+						<h3>braclet-2635</h3>
+						23 000 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/7.jpg">
+						</div>
+						<p class="produit">
+						<h3>braclet-2639</h3>
+						29 000 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/8.jpg">
+						</div>
+						<p class="produit">
+						<h3>braclet-2698</h3>
+						</h3>
+						29 000 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/9.jpg">
+						</div>
+						<p class="produit">
+						<h3>braclet-2697</h3>
+						</h3>
+						29 000 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+		</section>
+		<div class="titre">
+			<center>
+				<h4>Les parrures></h4>
+			</center>
+		</div>
+		<section class="produits">
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/10.jpg">
+						</div>
+						<p class="produit">
+						<h3>Trio Kabyle-7158</h3>
+						6,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col2">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/11.jpg">
+						</div>
+						<p class="details">
+						<h3>trio Kabyle-7162</h3>
+						12,900.0 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col3">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/12.jpg">
+						</div>
+						<p class="details">
+						<h3>Trio Kabyle-7163</h3>
+						3,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/13.jpg">
+						</div>
+						<p class="produit">
+						<h3>Trio Kabyle-1761</h3>
+						3,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/14.jpg">
+						</div>
+						<p class="produit">
+						<h3> Trio Kabyle-7157</h3>
+						4,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/15.jpg">
+						</div>
+						<p class="produit">
+						<h3>Trio Kabyle-1757</h3>
+						3,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/16.jpg">
+						</div>
+						<p class="produit">
+						<h3>Trio Kabyle-1760</h3>
+						44,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/17.jpg">
+						</div>
+						<p class="produit">
+						<h3>Trio Kabyle-1762</h3>
+						</h3>
+						30,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/18.jpg">
+						</div>
+						<p class="produit">
+						<h3>Trio Kabyle-1756</h3>
+						</h3>
+						43,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+	
+		</section>
+	
+	</section>
+		<div class="titre">
+			<center>
+				<h4>Les Broches-Avzim</h4>
+			</center>
+		</div>
+	
+		<section class="produits">
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/19.png">
+						</div>
+						<p class="produit">
+						<h3>Broche Kabyle en Argent-3076</h3>
+						2,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col2">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/20.jpg">
+						</div>
+						<p class="details">
+						<h3>Broche Kabyle en Argente-5012</h3>
+						45,900.0 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col3">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/21.jpg">
+						</div>
+						<p class="details">
+						<h3>Broche Kabyle en Argent-5016</h3>
+						12,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/22.jpg">
+						</div>
+						<p class="produit">
+						<h3>Broche Kabyle en Argent-5042</h3>
+						2,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/23.jpg">
+						</div>
+						<p class="produit">
+						<h3> Broche Kabyle en Argent-5013</h3>
+						9,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/24.png">
+						</div>
+						<p class="produit">
+						<h3>Broche Kabyle en Argent-5005</h3>
+						39,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/25.jpg">
+						</div>
+						<p class="produit">
+						<h3>Broche Kabyle en Argent-5001</h3>
+						43,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/26.jpg">
+						</div>
+						<p class="produit">
+						<h3>Broche Kabyle en Argent-5011</h3>
+						</h3>
+						5,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+	
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/27.jpg">
+						</div>
+						<p class="produit">
+						<h3>Broche Kabyle en Argent-5002</h3>
+						</h3>
+						14,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+		</section>
+		<div class="titre">
+			<center>
+				<h4>Boucles D'orielle-Thamenguct</h4>
+			</center>
+		</div>
+	
+		<section class="produits">
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/28.jpg">
+						</div>
+						<p class="produit">
+						<h3>Boucles D'oreille Kabyle-3076</h3>
+						2,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col2">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/29.jpg">
+						</div>
+						<p class="details">
+						<h3>Boucles D'oreille Kabyle-3083</h3>
+						7,900.0 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col3">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/30.jpg">
+						</div>
+						<p class="details">
+						<h3>Boucles D'oreille Kabyle-3101</h3>
+						1,500.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/31.jpg">
+						</div>
+						<p class="produit">
+						<h3>Boucles D'oreille Kabyle-3103</h3>
+						3,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/32.jpg">
+						</div>
+						<p class="produit">
+						<h3> Broche Kabyle en Argent-3004</h3>
+						4,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/33.jpg">
+						</div>
+						<p class="produit">
+						<h3>Boucles D'oreille Kabyle-3007</h3>
+						4,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/34.jpg">
+						</div>
+						<p class="produit">
+						<h3>Boucles D'oreille Kabyle-3008</h3>
+							7,900.00 Da
+							</p>
+							<div class="add">
+								<button>Ajouter aux panier</button>
+							</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/35.jpg">
+						</div>
+						<p class="produit">
+						<h3>Boucles D'oreille Kabyle-3006</h3>
+						</h3>
+						13,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/36.jpg">
+						</div>
+						<p class="produit">
+						<h3>Boucles D'oreille Kabyle-3131</h3>
+						</h3>
+						2,500.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+		<div class="titre">
+			<center>
+				<h4> Les Bagues- Taxamthemth</h4>
+			</center>
+		</div>
+		<section class="produits">
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/37.jpg">
+						</div>
+						<p class="produit">
+						<h3>Bagues Kabyle en Argent-1055</h3>
+						5,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col2">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/38.jpg">
+						</div>
+						<p class="details">
+						<h3>Bagues Kabyle en Argent-1060</h3>
+						3,900.0 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col3">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/39.jpg">
+						</div>
+						<p class="details">
+						<h3>Bagues Kabyle en Argent-1049</h3>
+						2,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/40.jpg">
+						</div>
+						<p class="produit">
+						<h3>Bagues Kabyle en Argent-1073</h3>
+						2,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/41.jpg">
+						</div>
+						<p class="produit">
+						<h3> Bagues Kabyle en Argent-1077</h3>
+						2,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/42.jpg">
+						</div>
+						<p class="produit">
+						<h3>Bagues Kabyle en Argent-1106</h3>
+						5,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="partie1">
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/43.jpg">
+						</div>
+						<p class="produit">
+						<h3>Bagues Kabyle en Argent-1109 </h3>
+							3,900.00 Da
+							</p>
+							<div class="add">
+								<button>Ajouter aux panier</button>
+							</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/44.jpg">
+						</div>
+						<p class="produit">
+						<h3>Bagues Kabyle en Argent-1123</h3>
+						
+						3,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+				<div class="column col1">
+					<div class="card">
+						<div class="photos">
+							<img src="../images/products/45.png">
+						</div>
+						<p class="produit">
+						<h3>Bagues Kabyle en Argent-1126</h3>
+						2,900.00 Da
+						</p>
+						<div class="add">
+							<button>Ajouter aux panier</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
+
+			<!-- footer -->
+			<footer class="footer-distributed">
+				<div class="footer-left">
+				
+	             <h3>Berbere<span>jewelery</span></h3>
+
+				<p class="footer-links">
+					<a href="#">Acceuil</a>
+					·
+					<a href="#">Produits</a>
+					·
+					<a href="#">Nos agences</a>
+					·
+					<a href="#">Contact</a>
+				</p>
+
+				<p class="footer-company-name">Copyrights @2020</p>
+
+				<div class="footer-icons">
+
+					<a href="https://facebook.com" target="_blank"><img class="imgHeader" src="../images/icons/facebook_icon.svg"></a>
+					<a href="https://twitter.com" target="_blank"><img class="imgHeader" src="../images/icons/twitter_icon.svg"></a>
+					<a href="https://instagram.com" target="_blank"><img class="imgHeader" src="../images/icons/instagram_icon.svg"></a>
+					<a href="https://linkedin.com" target="_blank"><img class="imgHeader" src="../images/icons/linkedin_icon.svg"></a>
+
+				</div>
+
+			</div>
+
+			<div class="footer-right">
+
+				<p>Contact</p>
+
+				<form action="#" method="post">
+
+					<input type="text" name="email" placeholder="Email">
+					<textarea name="message" placeholder="Message"></textarea>
+					<button>envoyer</button>
+
+				</form>
+
+			</div>
+
+		</footer>
+		
+	</div>
+
+	<div class="colonnes colonne3"></div>
+	</div>
+	
+	
+</body>
+</html>

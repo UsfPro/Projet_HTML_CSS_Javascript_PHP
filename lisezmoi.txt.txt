@@ -1,0 +1,58 @@
+#########################################################################################################################################################
+####  Mini projet Web
+####  Réalisé par 
+####  - Nabila Arab    groupe: 
+####  - Nabila Arab    groupe:
+####  - Nabila Arab    groupe:
+####  - Nabila Arab    groupe:
+####  - Nabila Arab    groupe:
+#########################################################################################################################################################
+
+
+#########################################################################################################################################################
+####  Ce projet consuiste à créer un mini projet Web de e-commerce (i.e. notre thème est celui des bijoux berberes)
+####  Notre projet contient:
+####  - Des pages statiques (.html) stockées dans le dossier tp_web/html 
+####  - Des pages dynamiques (.php) stockées dans le dossier tp_web/back
+####  - Des fichier de styles (.css) stockés dans le dossier tp_web/css
+####  - Des scripts pour gérer les événements (.js) stockés dans le dossier tp_web/js
+####  - Des images (.png, jpeg, etc.) stockées dans le dossier tp_web/images
+####  - Des données de la BDD (.sql, et autres) stockés dans le dossier tp_web/sql
+#########################################################################################################################################################
+
+
+#########################################################################################################################################################
+####  Le but de notre projet est de mettre en places les connaissances que nous avons accquises sur :
+####  - Le langage HTML
+####  - Le langage Javascript
+####  - Le langage PHP
+####  - Le langage css
+####  - Le langage SQL
+#########################################################################################################################################################
+
+
+#########################################################################################################################################################
+####  La page principale de notre site est index.php, elle contient :
+####  - Un header qui contient:
+####     - les liens vers les réseaux sociaux
+####     - Un lien pour se connecter (i.e.e connexion)
+####     - Un lien pour créer un compte (i.e. Register)
+####  - Un Menu qui permet à l'utilisateur de consulter les pages :
+####     - Produits
+####     - Offres
+####     - Contact
+####     - Agences
+####  - Un Body qui contient le contenu de la page
+####  - Un Footer pour prendre contact
+#########################################################################################################################################################
+
+
+
+#########################################################################################################################################################
+####  Déploiement de notre projet sur wampserver
+####  - Copier le dossier livré (notre projet tp_web) dans le répertoire www/ de wampserver
+####  - Préparation de la BDD se fait après avoir arrêté le wampserver avec ces deux opérations ci-dessous :
+####     - Copier le dossier de BDD tp_web/ qui se trouve dans le dossier livré sql/ dans le répertoire C:\wamp\bin\mysql\mysqlx.x.xx\data\
+####     - Copier le fichier (users.frm), qui contient le user BDD tp_web créé dans le répertoire  C:\wamp\bin\mysql\mysqlx.x.xx\data\performance_schema
+####  - Un export de la BDD est aussi fourni dans le dossier sql/
+#########################################################################################################################################################

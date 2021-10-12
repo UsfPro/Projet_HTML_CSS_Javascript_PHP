@@ -1,0 +1,352 @@
+	body{
+		background-image: url("../images/bg.jpg");
+	}
+	
+	.imgHeader {
+			width:25px;
+			height:25px;
+			margin-right: 5px;
+			border-radius: 5px 5px 5px 5px;
+	}
+	
+.divHeader{
+			margin-bottom: 30px;
+	}
+	
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: transparent;
+	}
+	
+	li {
+		float: left;
+	}
+	
+	li a {
+		display: block;
+		color: #4bbce7;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	
+	li a:hover {
+		color:white;
+		background-color: #4bbce7;
+	}
+	
+	.active {
+		color: black;
+		background-color: white;
+	}
+	
+	.social_icon {
+		display: flex;
+		float: left;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.header_right {
+		height: 40px;
+		float: right;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.btn {
+		display: flex;
+		float: left;
+		margin-left: 2px;
+		padding: 5px 5px;
+		text-align: center;
+		color: #111;
+		text-decoration: none;
+		background-color: transparent;
+		color: #4bbce7;
+	}
+
+	.btn:hover {
+		background-color: white;
+		color: black;
+	}
+	
+	.header {
+		width: 100%;
+		float: right;
+		display: table;
+	}
+
+	.logo {
+		width: 10%x;
+		height: 25px;
+		float: left;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.imgLogo {
+		width: 120px;
+		height: 60px;
+	}
+
+	.navbar ul {
+		float: right;
+		display: flex;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	
+    .Conteneur .colonne1{	
+		width: 15%;	
+
+	}
+
+ 	.Conteneur .colonne2{
+		align-items:top;
+		width: 70%;
+	}
+ 	
+	.Conteneur .colonne3{
+		width: 15%;
+	}
+
+	.Conteneur {
+      display: flex;
+      align-items: center; /
+      width: 100%;
+      height: auto;
+      }
+	  
+	  
+	 
+	/* STYLE SLIDE*/
+
+	* {box-sizing: border-box}
+	.bodySlider {font-family: Verdana, sans-serif; margin:0}
+	.mySlides {display: none;
+				width: 100%;
+				margin-top:120px;
+			}
+	.imgSlider {vertical-align: middle;
+				width: 100%;
+				height: 350px;
+				border-radius:5px 5px 5px 5px;
+			}
+
+	/* Slideshow container */
+	.slideshow-container {
+	  max-width: 100%;
+	  height: 350px;
+	  position: relative;
+	  margin: auto;
+	}
+
+	/* Next & previous buttons */
+	.prev, .next {
+	  cursor: pointer;
+	  position: absolute;
+	  top: 50%;
+	  width: auto;
+	  padding-left: 16px;
+	  padding-right:16px;
+	   padding-top:10px;
+	  padding-bottom:10px;
+	  margin-top: -22px;
+	  color: gray;
+	  font-weight: bold;
+	  font-size: 18px;
+	  transition: 0.6s ease;
+	  border-radius: 24px 24px 24px 24px;
+	  user-select: none;
+	}
+
+	/* Position the "next button" to the right */
+	.next {
+	  right: 0;
+	  border-radius: 24px 24px 24px 24px;
+	}
+
+	/* On hover, add a black background color with a little bit see-through */
+	.prev:hover, .next:hover {
+	  background-color:gray;
+	  color:white;
+	  padding-top:10px;
+	  padding-bottom:10px;
+	}
+
+	/* Caption text */
+	.text {
+	  color: black;
+	  font-size: 15px;
+	  padding: 8px 12px;
+	  /*position: absolute;*/
+	  bottom: 8px;
+	  width: 100%;
+	  text-align: center;
+	}
+
+	/* Number text (1/3 etc)  color: #f2f2f2; */
+	.numbertext {
+	  color: gray;
+	  font-size: 12px;
+	  padding: 8px 12px;
+	  position: absolute;
+	  top: 0;
+	}
+
+	/* The dots/bullets/indicators */
+	.dot {
+	  cursor: pointer;
+	  height: 15px;
+	  width: 15px;
+	  margin: 0 2px;
+	  background-color: #bbb;
+	  border-radius: 50%;
+	  display: inline-block;
+	  transition: background-color 0.6s ease;
+	}
+
+	.active, .dot:hover {
+	  background-color: #717171;
+	}
+
+	/* Fading animation */
+	.fade {
+	  -webkit-animation-name: fade;
+	  -webkit-animation-duration: 1.5s;
+	  animation-name: fade;
+	  animation-duration: 1.5s;
+	}
+
+	@-webkit-keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	@keyframes fade {
+	  from {opacity: .4} 
+	  to {opacity: 1}
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+	  .prev, .next,.text {font-size: 11px}
+	}
+
+	/*  STYLE CARTES DE PRIX */
+	.myOffersText {
+		font-size:50px;
+		font-family:cursive;
+		margin-top:30px;
+		text-align:center;
+		
+	}
+		 
+	.myOffersText span{
+		 font-family: arial;
+
+	}
+
+
+
+	.row {display: flex;
+				width: 100%;
+				height:500px;
+	}
+
+	.column {
+		
+		width:32%;
+		margin-right:1%;
+		margin-left:1%;
+		height:400px;
+		
+	}
+
+	.rowCarde {
+		display: flex;
+		width: 100%;
+		height:200px;
+	}
+
+	.divImgProduct{
+		background-image: url("../images/bgImg.jpg");
+		border-radius:5px 5px 0 0;
+	}
+	.imgProduct {
+		height:350px;
+		width:100%;
+	}
+
+	.priceProduct {
+		display: block;
+		width: 100%;
+		height:100px;
+		background-image: url("../images/bg.jpg");
+		
+	}
+
+	label{
+		/*background-color:#f3f9e9;*/
+		width: 100%;
+		height:50px;
+		display: inline-table;
+		font-weight: bold;
+		font: bold 18px sans-serif;
+		text-align:center;
+		text-decoration:none;
+		padding-top:10px;
+		padding-bottom:5px;
+
+	}
+
+	.selectProduct {
+		display: block;
+		width: 100%;
+		height:50px;
+		background-color: #a2dede;
+		margin-left: 0px;
+		
+		/*text-decoration:underline;*/
+		text-decoration:none;
+		font-weight: bold;
+		font: bold 18px sans-serif;
+		transition: 0.6s ease;
+		border-radius: 0 0 5px 5px;
+		user-select: none;
+	}
+
+
+		.selectProduct:hover {
+		background-color:white ;
+		color: #4bbce7;
+		
+	}
+	  
+
+	  .paragraphe {
+		      text-align: center;
+			  
+	  }
+	  
+	  
+	  .paragraphe .par{
+		   font-family: cursive;
+	  }
+	
+	  
+	  
+	  
+	strike {
+		color:red;
+	}
+	  
+	  
+	

@@ -1,0 +1,76 @@
+.partie1{
+    display: flex;
+   margin-left:3px;
+  
+}
+.text{
+    font-size: 80px;
+    font-family: cursive;
+    margin-top: -3cm;
+}
+.paragraphe{
+    font-size: 10px;
+    font-family: cursive;
+    color: rgb(44, 43, 43);
+    margin-left: 5cm;
+    margin-right: 5cm;
+    margin-top: -2cm;
+}
+.titre{
+    font-size: 40px;
+    font-family: cursive;
+    margin-top: 2cm;
+}
+.card{
+	/*margin-left: 80px;*/
+	
+	
+	position: relative;
+	background-color: #ffffff;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+   
+	
+}
+.card a{
+	text-decoration: none;
+	text-align: center;
+}
+.photos{
+	height: 170px;
+}
+.photos img{
+	margin-top: 10px;
+	height: auto;
+	max-width: 100%;
+	max-height: 100%;
+}
+.details{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+	font-size: 20px;
+	line-height: 35px;
+}
+.add{
+	/*position: absolute;*/
+	bottom: 0px;
+	height: 45px;
+	background-color: #a2dede;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.add button{
+	height: 45px;
+	background-color: #a2dede;
+	width: 100%;
+	color: #4bbce7;
+}
+
