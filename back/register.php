@@ -16,13 +16,12 @@
 
 		$host = 'localhost';
 		$dbname = 'tp_web';
-		$username = 'tp_web';
-		$password = 'tp_web';
+		$username = 'root';
 		
 		if(isset($_POST['insert'])){
 			try {
 				// se connecter à mysql
-				$pdo = new PDO("mysql:host=$host;dbname=$dbname","$username","$password");
+				$pdo = new PDO("mysql:host=$host;dbname=$dbname","$username");//,"$password");
 			} catch (PDOException $exc) {
 				echo $exc->getMessage();
 				exit();
